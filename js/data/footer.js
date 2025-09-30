@@ -4,7 +4,7 @@ export function generateFooter() {
     <div class="container">
       <div class="wrapper">
         <div class="col">
-          <a href="index.html"><img src="public/tiamonds.svg" alt="logo" loading="lazy"></a>
+          <a href="index.html"><img src="/tiamonds.svg" alt="logo" loading="lazy"></a>
           <p>
             Our exclusive glasses are specifically tailored to enhance the elegance of women with lower nose bridges
             and distinct cheekbones. We create high-end glasses that not only look lavish but also feel magnificent.

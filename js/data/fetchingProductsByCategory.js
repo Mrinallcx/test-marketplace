@@ -61,10 +61,10 @@ export const showProductContainer = (products) => {
         if (document.body) {
             if (document.body.classList.contains('page-silver')) {
                 // Use the provided Silver image for all items on the Silver page
-                displayImage = "public/product-2/silver-3.png";
+                displayImage = "/product-2/silver-3.png";
             } else if (document.body.classList.contains('page-platinum')) {
                 // Use the provided Platinum image for all items on the Platinum page
-                displayImage = "public/product-2/platinum-4.png";
+                displayImage = "/product-2/platinum-4.png";
             }
         }
         const imgEl = productClone.querySelector(".productImage");
