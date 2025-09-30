@@ -6,7 +6,7 @@
         "category": "New Arrivals",
         "price": "$1,950",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "category": "New Arrivals",
         "price": "$250",
         "description": "Investment-grade platinum bar, 1 troy ounce.",
-        "image": "../../public/Product 2/Platinum - 4.png"
+        "image": "../../public/product-2/platinum-4.png"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "category": "New Arrivals",
         "price": "$1,980",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
 
     "======================================== New Arrivals End ========================================",
@@ -34,7 +34,7 @@
         "category": "Best Seller",
         "price": "$1,970",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "category": "Best Seller",
         "price": "$1,960",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
     {
         "id": 6,
@@ -50,7 +50,7 @@
         "category": "Best Seller",
         "price": "$260",
         "description": "Investment-grade platinum bar, 1 troy ounce.",
-        "image": "../../public/Product 2/Platinum - 4.png"
+        "image": "../../public/product-2/platinum-4.png"
     },
     {
         "id": 7,
@@ -58,7 +58,7 @@
         "category": "Best Seller",
         "price": "$1,970",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 8,
@@ -66,7 +66,7 @@
         "category": "Best Seller",
         "price": "$1,985",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
     {
         "id": 9,
@@ -74,7 +74,7 @@
         "category": "Best Seller",
         "price": "$275",
         "description": "Investment-grade platinum bar, 1 troy ounce.",
-        "image": "../../public/Product 2/Platinum - 4.png"
+        "image": "../../public/product-2/platinum-4.png"
     },
 
     "======================================== Best Seller End ========================================",
@@ -85,7 +85,7 @@
         "category": "Eyeglass",
         "price": "$28",
         "description": "Square propionate polished black",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 11,
@@ -93,7 +93,7 @@
         "category": "Eyeglass",
         "price": "$199",
         "description": "Shiny metal style with metal 'T' logo decoration",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
     {
         "id": 12,
@@ -101,7 +101,7 @@
         "category": "Eyeglass",
         "price": "$51",
         "description": "Irregular acetate polished black",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 13,
@@ -109,7 +109,7 @@
         "category": "Eyeglass",
         "price": "$1,980",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
     {
         "id": 14,
@@ -117,7 +117,7 @@
         "category": "Eyeglass",
         "price": "$1,990",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 15,
@@ -125,7 +125,7 @@
         "category": "Eyeglass",
         "price": "$2,000",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
     {
         "id": 16,
@@ -133,7 +133,7 @@
         "category": "Eyeglass",
         "price": "$2,010",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 1.png"
+        "image": "../../public/product-2/gold-1.png"
     },
     {
         "id": 17,
@@ -141,7 +141,7 @@
         "category": "Eyeglass",
         "price": "$2,020",
         "description": "Investment-grade 24K gold bar, 1 troy ounce.",
-        "image": "../../public/product 2/Gold - 2.png"
+        "image": "../../public/product-2/gold-2.png"
     },
     {
         "id": 18,

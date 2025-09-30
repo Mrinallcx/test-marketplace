@@ -8,11 +8,11 @@ export function homeHeaderSlider() {
 
   // Your slides data remains unchanged
   const slidesData = [
-    { imgSrc: "public/new img/agriculture.png", brand: "Agriculture", alt: "header image agriculture", overlayClass: " overlay1" },
-    { imgSrc: "public/new img/Carbon credit.png", brand: "Carbon Credit", alt: "header image carbon credit", overlayClass: "overlay2" },
-    { imgSrc: "public/new img/energy.png", brand: "Energy", alt: "header image energy", overlayClass: "overlay3" },
-    { imgSrc: "public/new img/gold.png", brand: "Gold", alt: "header image gold", overlayClass: "overlay4" },
-    { imgSrc: "public/new img/Silver.png", brand: "Silver", alt: "header image silver", overlayClass: "overlay5" },
+    { imgSrc: "public/new-img/agriculture.png", brand: "Agriculture", alt: "header image agriculture", overlayClass: " overlay1" },
+    { imgSrc: "public/new-img/Carbon credit.png", brand: "Carbon Credit", alt: "header image carbon credit", overlayClass: "overlay2" },
+    { imgSrc: "public/new-img/energy.png", brand: "Energy", alt: "header image energy", overlayClass: "overlay3" },
+    { imgSrc: "public/new-img/gold.png", brand: "Gold", alt: "header image gold", overlayClass: "overlay4" },
+    { imgSrc: "public/new-img/Silver.png", brand: "Silver", alt: "header image silver", overlayClass: "overlay5" },
   ];
 
   // Moved inside the function to ensure it only executes when the container is present
