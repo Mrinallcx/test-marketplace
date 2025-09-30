@@ -1,0 +1,197 @@
+#brands_page {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        /*============================ Brands Grid ===========================*/
+        #brands_grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.2rem;
+
+            a {
+                height: 60vh;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                border-radius: 20px;
+                padding-bottom: 1.2rem;
+                overflow: hidden;
+                transition: all $transition;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: all $transition;
+                }
+
+                h4 {
+                    z-index: 4;
+                    color: $white;
+                }
+
+                /* Overlay fade effects */
+                .overlay {
+                    position: absolute;
+                    width: 100%;
+                    bottom: -1%;
+                    left: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    padding: 6rem 1.6rem 1.6rem;
+                    color: $white;
+                    z-index: 2;
+                    transition: all $transition;
+
+                    a {
+                        color: $white;
+                    }
+
+                    @mixin apply-gradient($red, $green, $blue, $opacity) {
+                        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba($red, $green, $blue, $opacity) 65%);
+                    }
+
+                    &.overlay1 {
+                        @include apply-gradient(95, 227, 212, 0.7);
+                    }
+
+                    &.overlay2 {
+                        @include apply-gradient(137, 210, 141, 0.7);
+                    }
+
+                    &.overlay3 {
+                        @include apply-gradient(246, 174, 1, 0.7);
+                    }
+
+                    &.overlay4 {
+                        @include apply-gradient(240, 0, 47, 0.7);
+                    }
+
+                    &.overlay5 {
+                        @include apply-gradient(167, 84, 39, 0.7);
+                    }
+
+                    &.overlay6 {
+                        @include apply-gradient(253, 146, 166, 0.7);
+                    }
+
+                    &.overlay7 {
+                        @include apply-gradient(231, 183, 143, 0.7);
+                    }
+
+                    &.overlay8 {
+                        @include apply-gradient(90, 174, 202, 0.7);
+                    }
+
+                    &.overlay9 {
+                        @include apply-gradient(197, 211, 214, 0.7);
+                    }
+
+                    &.overlay10 {
+                        @include apply-gradient(100, 49, 30, 0.7);
+                    }
+
+                    &.overlay11 {
+                        @include apply-gradient(231, 155, 175, 0.7);
+                    }
+
+                    &.overlay12 {
+                        @include apply-gradient(248, 97, 68, 0.7);
+                    }
+
+                    &.overlay13 {
+                        @include apply-gradient(243, 172, 58, 0.7);
+                    }
+
+                    &.overlay14 {
+                        @include apply-gradient(1, 147, 148, 0.3);
+                    }
+
+                    &.overlay15 {
+                        @include apply-gradient(241, 70, 59, 0.7);
+                    }
+
+                    &.overlay16 {
+                        @include apply-gradient(114, 53, 86, 0.7);
+                    }
+                }
+
+                &:hover {
+                    padding-bottom: 2rem;
+
+                    img {
+                        scale: 1.1;
+                    }
+
+                    .overlay {
+                        padding: 7rem 1.6rem 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//======================== Breakpoints ========================//
+@media (max-width: 1440px) {
+    #brands_page {
+        .container {
+            gap: 4rem;
+
+            #brands_grid {
+                gap: 1rem;
+
+                a {
+                    max-height: 520px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    #brands_page {
+        .container {
+            #brands_grid {
+                grid-template-columns: repeat(3, 1fr);
+
+                a {
+                    max-height: 450px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    #brands_page {
+        .container {
+            gap: 3rem;
+
+            #brands_grid {
+                grid-template-columns: repeat(2, 1fr);
+
+                a {
+                    max-height: 350px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #brands_page {
+        .container {
+            #brands_grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}

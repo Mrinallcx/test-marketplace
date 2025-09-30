@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="public/favicon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Locomotive -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="scss/style.scss">
+    <title>Tiamonds | Eyeglasses</title>
+</head>
+
+<body>
+
+    <!--========== Loader ==========-->
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!--========== Navbar ==========-->
+    <nav>
+        <div class="nav_cnt">
+            <a href="index.html">
+                <img class="logo" src="public/tiamonds.svg" alt="logo" loading="lazy">
+            </a>
+
+            <div class="nav_links">
+                <a href="index.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Home</span>
+                    <span class="m-flip_item">Home</span>
+                </a>
+                <a href="about.html" class="m-flip js-flip">
+                    <span class="m-flip_item">About</span>
+                    <span class="m-flip_item">About</span>
+                </a>
+                <a href="gold.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Gold</span>
+                    <span class="m-flip_item">Gold</span>
+                </a>
+                <a href="sunglasses.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Sunglasses</span>
+                    <span class="m-flip_item">Sunglasses</span>
+                </a>
+                <a href="silver.html" class="m-flip js-flip"><span class="m-flip_item">Silver</span><span class="m-flip_item">Silver</span></a>
+                <a href="platinum.html" class="m-flip js-flip"><span class="m-flip_item">Platinum</span><span class="m-flip_item">Platinum</span></a>
+            </div>
+
+            <div class="nav_right">
+                <!-- Cart -->
+                <div class="navAddtoCart">
+                    <a href="signIn.html" class="m-flip js-flip">
+                        <span class="m-flip_item">Sign in</span>
+                        <span class="m-flip_item">Sign in</span>
+                    </a>
+                    <div class="vLine"></div>
+                    <a href="addToCart.html" class="add_to_cart" id="cartValue">
+                        <i class="fa-solid fa-cart-shopping"> 0 </i>
+                    </a>
+                </div>
+
+                <!-- Hamburger -->
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- For Small screen -->
+        <div class="res_nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gold.html">Gold</a>
+            <a href="sunglasses.html">Sunglasses</a>
+            <a href="silver.html">Silver</a>
+            <a href="platinum.html">Platinum</a>
+        </div>
+    </nav>
+
+    <div class="nav_overlay"></div>
+
+    <!--========== Main ==========-->
+    <div id="main" class="main_pT">
+        <!--========== Header ==========-->
+        <section id="about_header">
+            <div class="container">
+                <!-- Heading -->
+                <div class="heading">
+                    <h1>About Us</h1>
+                    <p>
+                        Discover the perfect blend of style and vision at Focus Foundary, where every pair of
+                        eyeglasses and sunglasses promises a clearer, brighter world with a dash of flair. Crafting your
+                        unique view, one frame at a time.
+                    </p>
+                </div>
+
+                <!-- Wrapper -->
+                <div class="wrapper">
+                    <img src="public/about/about1.avif" alt="about_header" loading="lazy">
+                    <img src="public/about/about2.webp" alt="about_header" loading="lazy">
+                    <img src="public/about/about3.avif" alt="about_header" loading="lazy">
+                    <img src="public/about/about4.jpg" alt="about_header" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!--========== About Blocks ==========-->
+        <section id="about_blocks">
+            <!-- Block -->
+            <div class="about_block">
+                <img src="https://s3.envato.com/files/480489824/5f59ec85076f7a5cc6798d7a_withmeta.jpg"
+                    alt="Women with eyeglass" loading="lazy">
+                <div class="container">
+                    <h2>
+                        A DynamicFIT® for everyone
+                    </h2>
+                    <p class="mT1">
+                        Everyone has the right to both look and feel amazing. However, those with low nose bridges or
+                        distinct cheekbones often encounter discomfort and poor fit with standard glasses. That
+                        changes today. Our glasses, featuring the innovative DynamicFIT® technology, ensure a
+                        tailor-made fit and supreme comfort for everyone.
+                    </p>
+                </div>
+            </div>
+            <!-- Block -->
+            <div class="about_block">
+                <div class="container">
+                    <h2>
+                        What's in a name?
+                    </h2>
+                    <p class="mT1">
+                        Every lens is a testament to clarity, every frame a sculpture of style. Here, vision meets
+                        craftsmanship, where your sight is our mission. In the foundry of focus, we forge the future of
+                        eyewear, melding aesthetics with precision for your eyes only.
+                    </p>
+
+                    <h5 class="mT2">We inspire people to celebrate their unique fashion sense.</h5>
+                </div>
+                <img src="https://t4.ftcdn.net/jpg/06/63/28/23/360_F_663282369_Vu8GkIW9xZUBIDXBhGLbzhgFSiLiPEyh.jpg"
+                    alt="Men with eyeglass" loading="lazy">
+            </div>
+            <!-- Block -->
+            <div class="about_block">
+                <img src="https://st4.depositphotos.com/1017228/20338/i/450/depositphotos_203384578-stock-photo-portrait-lovely-young-blonde-girl.jpg"
+                    alt="Women with sunglasses" loading="lazy">
+
+                <div class="container">
+                    <h2>
+                        Genuine beauty originates from the soul.
+                    </h2>
+                    <p class="mT1">
+                        Our mission is to empower peoples to feel at ease and self-assured in all their endeavors. This
+                        is
+                        the reason we craft sunglasses & eyeglasses from premium materials, designed to complement every
+                        facial
+                        structure.
+                    </p>
+                    <p class="mT1">
+                        Focus Foundary revolutionizes this experience. Our glasses are expertly crafted for optimal
+                        comfort, secure fit, and stunning aesthetics. We hold the conviction that every people possesses
+                        beauty and should have accessories that highlight thier unique style.
+                    </p>
+                    <h5 class="mT2">
+                        Style for all. This is Focus Foundary.
+                    </h5>
+                </div>
+            </div>
+        </section>
+
+        <!--========== Explore Glasses ==========-->
+        <section class="expoloreGlasses">
+            <div class="container">
+                <!-- Heading -->
+                <div class="heading">
+                    <h1>Explore Our Glasses</h1>
+                    <p>
+                        Seamless sophistication in each set.
+                    </p>
+                </div>
+
+                <!-- Content -->
+                <div class="wrapper">
+                    <div class="col">
+                        <div class="txt">
+                            <h3>Eye Glasses</h3>
+                            <div class="btn btn3 mT2">
+                                <a href="gold.html" class="m-flip js-flip">
+                                    <span class="m-flip_item">Explore now</span>
+                                    <span class="m-flip_item">Explore now</span>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="public/home/popBrand3.avif" alt="Eyeglasses" srcset="" loading="lazy">
+                    </div>
+                    <div class="col">
+                        <div class="txt">
+                            <h3>Sun Glasses</h3>
+                            <div class="btn btn3 mT2">
+                                <a href="sunglasses.html" class="m-flip js-flip">
+                                    <span class="m-flip_item">Explore now</span>
+                                    <span class="m-flip_item">Explore now</span>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="public/home/popBrand1.jpg" alt="Sunglasses" srcset="" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== Customer Help ==========-->
+        <section class="customerHelp">
+            <div class="container customerHelpCnt">
+                <!-- Fetching data through js from data folder -->
+            </div>
+        </section>
+
+        <!--========== Footer ==========-->
+        <footer></footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

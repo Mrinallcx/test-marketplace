@@ -1,0 +1,116 @@
+.policy {
+    .container {
+        display: flex;
+        align-items: flex-start;
+        gap: 4rem;
+
+        //===== For Left Tab ======//
+        .tabs {
+            width: 30%;
+            background: rgb(240, 240, 240);
+            padding: 4rem 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            border-radius: 20px;
+
+            >div {
+                padding: 1.2rem 2rem;
+                width: fit-content;
+                border-radius: 50px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    font-weight: lighter;
+                    width: fit-content;
+                }
+
+                &.active {
+                    background: $black;
+
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        //===== Text ======//
+        .content {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                a {
+                    width: fit-content;
+                }
+            }
+        }
+    }
+}
+
+//======================== Breakpoints ========================//
+
+@media (max-width: 1440px) {
+    .policy {
+        .container {
+
+            //===== For Left Tab ======//
+            .tabs {
+                width: 40%;
+            }
+
+            //===== Text ======//
+            .content {
+                width: 60%;
+                gap: 2.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .policy {
+        .container {
+            gap: 2rem;
+
+            .tabs {
+                width: 50%;
+                padding: 3rem 1.5rem;
+            }
+
+            //===== Text ======//
+            .content {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .policy {
+        .container {
+            gap: 4rem;
+            flex-direction: column;
+
+            .tabs {
+                width: 100%;
+            }
+
+            //===== Text ======//
+            .content {
+                width: 100%;
+            }
+        }
+    }
+}

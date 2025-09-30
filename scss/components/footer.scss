@@ -1,0 +1,211 @@
+footer {
+    background: $black;
+    color: $white;
+    width: 100%;
+    padding: 5rem 0 2rem 0;
+
+    a {
+        color: $white;
+        width: fit-content;
+    }
+
+    .container {
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+
+            .col {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: .5rem;
+
+                img {
+                    width: 160px;
+                    filter: invert(1) brightness(1);
+                }
+
+                img,
+                h5 {
+                    margin-bottom: 1rem;
+                }
+
+                h5 {
+                    opacity: .4;
+                }
+
+                p {
+                    max-width: 350px;
+                    width: 100%;
+                }
+
+                // Subscription Form
+                form {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .7rem;
+                    margin-top: 1rem;
+
+                    input {
+                        outline: none;
+                    }
+
+                    input[type="email"] {
+                        width: 100%;
+                        background: none;
+                        border: 1px solid #525252;
+                        padding: 1rem 1.5rem;
+                        color: $white;
+                        font-size: .9rem;
+                        border-radius: 50px;
+                        transition: border $transition;
+
+                        &:focus {
+                            border: 1px solid $white;
+                        }
+
+                        &::placeholder {
+                            color: #383838;
+                        }
+                    }
+
+                    input[type="submit"] {
+                        background: $white;
+                        padding: 1rem 2.5rem;
+                        width: fit-content;
+                        font-size: .9rem;
+                        font-family: ABold;
+                        border-radius: 50px;
+                        border: none;
+                        cursor: pointer;
+                        transition: background $transition;
+
+                        &:hover {
+                            background: $grey;
+                        }
+                    }
+                }
+            }
+        }
+
+        .copyrights {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #525252;
+            margin-top: 5rem;
+            padding-top: 2rem;
+
+            .payment {
+                display: flex;
+                gap: 2rem;
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+//======================== Breakpoints ========================//
+
+@media (max-width: 1100px) {
+    footer {
+
+        .container {
+            .wrapper {
+                flex-wrap: wrap;
+
+                .col {
+                    gap: 1rem;
+
+                    // Subscription Form
+                    form {
+                        gap: 1rem;
+                        margin-top: .5rem;
+                    }
+
+                    &:nth-child(4) {
+                        margin-top: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        padding: 4rem 0 2rem 0;
+
+        .container {
+            .wrapper {
+                justify-content: flex-start;
+
+                .col {
+                    img {
+                        width: 120px;
+                        filter: invert(1) brightness(1);
+                    }
+
+                    img,
+                    h5 {
+                        margin-bottom: .5rem;
+                    }
+
+                    p {
+                        max-width: 100%;
+                    }
+
+                    &:nth-child(1) {
+                        width: 100%;
+                        margin-bottom: 2rem;
+                    }
+
+                    &:nth-child(2),
+                    &:nth-child(3) {
+                        width: 40%;
+                    }
+
+                    &:nth-child(4) {
+                        width: 60%;
+                        margin-top: 2rem;
+                    }
+                }
+            }
+
+            .copyrights {
+                align-items: flex-start;
+                flex-direction: column-reverse;
+                gap: 2rem;
+                margin-top: 3.5rem;
+                padding-top: 2rem;
+
+                .payment {
+                    flex-wrap: wrap;
+
+                    i {
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    footer {
+        .container {
+            .wrapper {
+                .col {
+                    &:nth-child(4) {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}

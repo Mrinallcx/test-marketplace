@@ -1,0 +1,88 @@
+.expoloreGlasses {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        .wrapper {
+            display: flex;
+            gap: 1.2rem;
+
+            .col {
+                width: 100%;
+                height: 80vh;
+                position: relative;
+                overflow: hidden;
+                border-radius: 20px;
+
+                .txt {
+                    position: absolute;
+                    top: 80%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    color: $white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    filter: brightness(90%);
+                    object-fit: cover;
+                    transition: transform $transition;
+                }
+
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+//======================== Breakpoints ========================//
+@media (max-width: 1440px) {
+    .expoloreGlasses {
+        .container {
+            gap: 4rem;
+
+            .wrapper {
+                gap: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .expoloreGlasses {
+        .container {
+            .wrapper {
+                .col {
+                    max-height: 500px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .expoloreGlasses {
+        .container {
+            gap: 3rem;
+
+            .wrapper {
+                flex-direction: column;
+
+                .col {
+                    max-height: 420px;
+                }
+            }
+        }
+    }
+}

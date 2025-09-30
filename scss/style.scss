@@ -1,0 +1,57 @@
+$white: #FEFDED;
+$black: #101415;
+$grey: rgb(219, 219, 219);
+$transition: .3s ease-in-out;
+$transition-time: 0.3s;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: ARegular;
+  overscroll-behavior: none;
+  font-variation-settings: normal;
+  font-feature-settings: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::selection {
+  color: #FEFDED;
+  background: #101415;
+}
+
+html.has-scroll-smooth {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.c-scrollbar {
+  z-index: 100;
+}
+
+.c-scrollbar_thumb {
+  background: $black;
+  opacity: 1;
+}
+
+@import "utilitites/utilitites.scss";
+@import "components/components.scss";
+@import "pages/pages.scss";

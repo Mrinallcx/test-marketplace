@@ -1,0 +1,49 @@
+@import "font.scss";
+@import "spacing.scss";
+
+a {
+    text-decoration: none;
+    color: $black;
+    display: block;
+}
+
+#main {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.main_pT {
+    padding-top: 100px;
+}
+
+section {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+//======================== Breakpoints ========================//
+@media (max-width: 1440px) {
+    #main {
+        gap: 8rem;
+    }
+}
+
+@media (max-width: 830px) {
+    #main {
+        gap: 6rem;
+    }
+
+    .main_pT {
+        padding-top: 80px;
+    }
+}

@@ -1,0 +1,301 @@
+[   
+    "======================================== New Arrivals Start ========================================",
+    {
+        "id": 1,
+        "name": "1 Ounce Gold Bar",
+        "category": "New Arrivals",
+        "price": "$1,950",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 2,
+        "name": "1 Ounce Platinum Bar",
+        "category": "New Arrivals",
+        "price": "$250",
+        "description": "Investment-grade platinum bar, 1 troy ounce.",
+        "image": "../../public/Product 2/Platinum - 4.png"
+    },
+    {
+        "id": 3,
+        "name": "1 Ounce Gold Bar",
+        "category": "New Arrivals",
+        "price": "$1,980",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+
+    "======================================== New Arrivals End ========================================",
+
+    "======================================== Best Seller Start ========================================",
+    {
+        "id": 4,
+        "name": "1 Ounce Gold Bar",
+        "category": "Best Seller",
+        "price": "$1,970",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 5,
+        "name": "1 Ounce Gold Bar",
+        "category": "Best Seller",
+        "price": "$1,960",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 6,
+        "name": "1 Ounce Platinum Bar",
+        "category": "Best Seller",
+        "price": "$260",
+        "description": "Investment-grade platinum bar, 1 troy ounce.",
+        "image": "../../public/Product 2/Platinum - 4.png"
+    },
+    {
+        "id": 7,
+        "name": "1 Ounce Gold Bar",
+        "category": "Best Seller",
+        "price": "$1,970",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 8,
+        "name": "1 Ounce Gold Bar",
+        "category": "Best Seller",
+        "price": "$1,985",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 9,
+        "name": "1 Ounce Platinum Bar",
+        "category": "Best Seller",
+        "price": "$275",
+        "description": "Investment-grade platinum bar, 1 troy ounce.",
+        "image": "../../public/Product 2/Platinum - 4.png"
+    },
+
+    "======================================== Best Seller End ========================================",
+    "======================================== Eyeglasses Page start ========================================",
+    {
+        "id": 10,
+        "name": "RB7119 Optics",
+        "category": "Eyeglass",
+        "price": "$28",
+        "description": "Square propionate polished black",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 11,
+        "name": "Blue Block Piolet",
+        "category": "Eyeglass",
+        "price": "$199",
+        "description": "Shiny metal style with metal 'T' logo decoration",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 12,
+        "name": "Britt Optics",
+        "category": "Eyeglass",
+        "price": "$51",
+        "description": "Irregular acetate polished black",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 13,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$1,980",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 14,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$1,990",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 15,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,000",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 16,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,010",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 17,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,020",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 18,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,030",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 19,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,040",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    {
+        "id": 20,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,050",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 1.png"
+    },
+    {
+        "id": 21,
+        "name": "1 Ounce Gold Bar",
+        "category": "Eyeglass",
+        "price": "$2,060",
+        "description": "Investment-grade 24K gold bar, 1 troy ounce.",
+        "image": "../../public/product 2/Gold - 2.png"
+    },
+    "======================================== Eyeglasses Page end ========================================",
+    "======================================== Sunglasses Page start ========================================",
+    {
+        "id": 22,
+        "name": "JULIE",
+        "category": "Sunglass",
+        "price": "$36",
+        "description": "Metal rectangle polished black",
+        "image": "../../public/product/newArrivals2.png"
+    },
+    {
+        "id": 23,
+        "name": "Frank",
+        "category": "Sunglass",
+        "price": "$78",
+        "description": "Violet polished legend gold",
+        "image": "../../public/product/newArrivals3.png"
+    },
+    {
+        "id": 24,
+        "name": "Aviator Gradient",
+        "category": "Sunglass",
+        "price": "$62",
+        "description": "Blue/Grey polished On Gold",
+        "image": "../../public/product/bestSeller1.png"
+    },
+    {
+        "id": 25,
+        "name": "DAX Sunglass",
+        "category": "Sunglass",
+        "price": "$220",
+        "description": "Dark Havana, Shiny acetate style with shiny metal T logo on the temple",
+        "image": "../../public/product/bestSeller3.png"
+    },
+    {
+        "id": 27,
+        "name": "Polarized River",
+        "category": "Sunglass",
+        "price": "$127",
+        "description": "Shiny black acetate front and temples",
+        "image": "../../public/product/bestSeller5.png"
+    },
+    {
+        "id": 28,
+        "name": "Gia Sunglass",
+        "category": "Sunglass",
+        "price": "$480",
+        "description": "Shiny acetate front and shiny metal",
+        "image": "../../public/product/bestSeller6.png"
+    },
+    {
+        "id": 29,
+        "name": "Jackie OHH II",
+        "category": "Sunglass",
+        "price": "$240",
+        "description": "Butterfly nylon polished light havana",
+        "image": "../../public/product/sunglass7.png"
+    },
+    {
+        "id": 30,
+        "name": "Reggie",
+        "category": "Sunglass",
+        "price": "$480",
+        "description": "Shiny metal style",
+        "image": "../../public/product/sunglass8.png"
+    },
+    {
+        "id": 31,
+        "name": "Carla Soft Square",
+        "category": "Sunglass",
+        "price": "$405",
+        "description": "Shiny brown metal front with shiny brown gradient lilac plastic temples and gradient brown lenses",
+        "image": "../../public/product/sunglass9.png"
+    },
+    {
+        "id": 32,
+        "name": "Polarized Hudson",
+        "category": "Sunglass",
+        "price": "$570",
+        "description": "Shiny style combination between metal and plastic",
+        "image": "../../public/product/sunglass10.png"
+    },
+    {
+        "id": 33,
+        "name": "Clark",
+        "category": "Sunglass",
+        "price": "$440",
+        "description": "Shiny metal style with UV protection",
+        "image": "../../public/product/sunglass11.png"
+    },
+    {
+        "id": 34,
+        "name": "Dimitry Vintage",
+        "category": "Sunglass",
+        "price": "$460",
+        "description": "Matte black acetate frame with dark ruthenium metal insert detail",
+        "image": "../../public/product/sunglass12.png"
+    },
+    {
+        "id": 35,
+        "name": "Outdoors II",
+        "category": "Sunglass",
+        "price": "$510",
+        "description": "Piolet metal polished gold",
+        "image": "../../public/product/sunglass13.png"
+    },
+    {
+        "id": 36,
+        "name": "Aviator Flash Lenses",
+        "category": "Sunglass",
+        "price": "$550",
+        "description": "Piolet metal matte gold",
+        "image": "../../public/product/sunglass14.png"
+    },
+    {
+        "id": 37,
+        "name": "Aviator Flash Lenses",
+        "category": "Sunglass",
+        "price": "$550",
+        "description": "Round metal matte gold",
+        "image": "../../public/product/sunglass15.png"
+    },
+    "======================================== Sunglasses Page end ========================================"
+]

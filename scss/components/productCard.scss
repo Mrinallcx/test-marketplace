@@ -1,0 +1,118 @@
+/* Card */
+.card {
+    background: #F2F2F2;
+    padding: 2rem;
+    border-radius: 25px;
+
+    article {
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+/* Category */
+.category {
+    background: #d5d5d5;
+    width: fit-content;
+    color: $black;
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: .9rem;
+}
+
+/* Image */
+.imageContainer {
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    text-align: center;
+    width: 100%;
+    align-self: stretch;
+
+    img {
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Name */
+.productName {
+    margin: 1rem 0 0 0;
+}
+
+/* Price */
+.productPriceElement {
+    margin: 1rem 0;
+}
+
+/* Product Quantity */
+.productQuantityElement {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+    .productProperty {
+        width: 100%;
+    }
+
+    /* Stock */
+    .stockElement {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        border: 1px solid rgb(189, 189, 189);
+        border-radius: 50px;
+
+        button {
+            background-color: transparent;
+            color: rgb(189, 189, 189);
+            font-size: 2rem;
+            padding: .4rem 2rem;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .productQuantity {
+            text-align: center;
+        }
+    }
+}
+
+/* Add to cart */
+.add_to_cart_btn,
+.remove_to_cart_btn {
+    outline: none;
+    width: 100%;
+    border: none;
+    background: $black;
+    color: $white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+//======================== Breakpoints ========================//
+@media (max-width: 320px) {
+    .card {
+        padding: 1rem;
+    }
+
+    .productQuantityElement {
+        flex-direction: column;
+        gap: .5rem;
+    }
+}

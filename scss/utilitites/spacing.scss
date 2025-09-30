@@ -1,0 +1,56 @@
+.container {
+    padding: 0 4rem;
+}
+
+.mT1 {
+    margin-top: 1rem;
+}
+
+.mT2 {
+    margin-top: 2rem;
+}
+
+.mT3 {
+    margin-top: 3rem;
+}
+
+.mT4 {
+    margin-top: 4rem;
+}
+
+//======================== Breakpoints ========================//
+
+@media (min-width: 1860px) {
+    .container {
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .mT1 {
+        margin-top: .8rem;
+    }
+
+    .mT2 {
+        margin-top: 1.2rem;
+    }
+
+    .mT3 {
+        margin-top: 2.2rem;
+    }
+
+    .mT4 {
+        margin-top: 3.2rem;
+    }
+}

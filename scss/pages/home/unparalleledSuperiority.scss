@@ -1,0 +1,311 @@
+.unparalleledSuperiority {
+    overflow: hidden;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+
+            // ===== Row 1
+            .row1 {
+                display: flex;
+                gap: 1.2rem;
+
+                .col {
+                    border-radius: 25px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .txt {
+                        padding: 2.5rem;
+
+                        h3 {
+                            max-width: 400px;
+                            width: 100%;
+                        }
+
+                        p {
+                            max-width: 380px;
+                            width: 100%;
+                        }
+                    }
+
+                    img {
+                        height: 50vh;
+                        // max-height: 400px;
+                        width: 100%;
+                        object-fit: cover;
+                        margin-bottom: -4px;
+                    }
+                }
+
+                .col1 {
+                    width: 40%;
+                    background: rgb(214, 254, 197);
+                }
+
+                .col2 {
+                    width: 60%;
+                    background: #FDE2CD;
+                }
+            }
+
+            // ===== Row 2
+            .row2 {
+                display: flex;
+                align-items: center;
+                background: #DDEAD8;
+                border-radius: 25px;
+                overflow: hidden;
+
+                img {
+                    width: 50%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                /*===== Accordian for row 2 =====*/
+                #accordion_wrapper {
+                    width: 50%;
+                    padding: 2.5rem;
+                    display: flex;
+                    flex-direction: column;
+
+                    .accordion {
+                        .question {
+                            cursor: pointer;
+                        }
+
+                        .answer {
+                            max-height: 0;
+                            margin: 1rem 0;
+                            opacity: 0;
+                            overflow: hidden;
+                            transition: max-height 0.3s ease-out, opacity 0.3s ease;
+                        }
+
+                        .expanded {
+                            max-height: fit-content;
+                            /* Adjust based on your content's maximum height */
+                            opacity: 1;
+                        }
+
+
+                        /* Animation */
+                        @keyframes slideDown {
+                            from {
+                                opacity: 0;
+                                transform: translateY(-10px);
+                            }
+
+                            to {
+                                opacity: 1;
+                                transform: translateY(0);
+                            }
+                        }
+                    }
+                }
+            }
+
+            // ===== Row 3
+            .row3 {
+                display: flex;
+                gap: 1.2rem;
+
+                .col {
+                    border-radius: 25px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .txt {
+                        padding: 2.5rem;
+
+                        h3 {
+                            max-width: 400px;
+                            width: 100%;
+                        }
+
+                        p {
+                            max-width: 380px;
+                            width: 100%;
+                        }
+                    }
+
+                    img {
+                        height: 50vh;
+                        // max-height: 400px;
+                        width: 100%;
+                        object-fit: cover;
+                        margin-bottom: -4px;
+                    }
+                }
+
+                .col1 {
+                    width: 60%;
+                    background: #FDFFAE;
+                }
+
+                .col2 {
+                    width: 40%;
+                    background: #F8EDE3;
+                }
+            }
+        }
+    }
+}
+
+//======================== Breakpoints ========================//
+@media (max-width: 1440px) {
+    .unparalleledSuperiority {
+        .container {
+            gap: 4rem;
+
+            .wrapper {
+                gap: 1rem;
+
+                // ===== Row 1
+                .row1 {
+                    gap: 1rem;
+                }
+
+                // ===== Row 2
+                .row2 {
+                    img {
+                        width: 60%;
+                    }
+                }
+
+                // ===== Row 3
+                .row3 {
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .unparalleledSuperiority {
+        .container {
+            .wrapper {
+
+                // ===== Row 1
+                .row1 {
+                    .col {
+                        .txt {
+                            padding: 2rem;
+                        }
+
+                        img {
+                            max-height: 400px;
+                        }
+                    }
+
+                    .col1 {
+                        width: 45%;
+                    }
+
+                    .col2 {
+                        width: 55%;
+                    }
+                }
+
+                // ===== Row 2
+                .row2 {
+                    flex-direction: column;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    /*===== Accordian for row 2 =====*/
+                    #accordion_wrapper {
+                        padding: 2rem;
+                        width: 100%;
+                    }
+                }
+
+                // ===== Row 3
+                .row3 {
+                    .col {
+                        .txt {
+                            padding: 2rem;
+                        }
+
+                        img {
+                            max-height: 400px;
+
+                        }
+                    }
+
+                    .col1 {
+                        width: 55%;
+                    }
+
+                    .col2 {
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .unparalleledSuperiority {
+        .container {
+            gap: 3rem;
+
+            .wrapper {
+
+                // ===== Row 1
+                .row1 {
+                    flex-direction: column;
+
+                    .col {
+                        img {
+                            max-height: 250px;
+                        }
+                    }
+
+                    .col1 {
+                        width: 100%;
+                    }
+
+                    .col2 {
+                        width: 100%;
+                    }
+                }
+
+                // ===== Row 3
+                .row3 {
+                    flex-direction: column;
+
+                    .col {
+
+                        img {
+                            max-height: 300px;
+                        }
+                    }
+
+                    .col1 {
+                        width: 100%;
+                    }
+
+                    .col2 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

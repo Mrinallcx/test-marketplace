@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="public/favicon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Locomotive -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="scss/style.scss">
+    <title>Focus Foundary | Brands</title>
+</head>
+
+<body>
+
+    <!--========== Loader ==========-->
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!--========== Navbar ==========-->
+    <nav>
+        <div class="nav_cnt">
+            <a href="index.html">
+                <img class="logo" src="public/logo.png" alt="logo" loading="lazy">
+            </a>
+
+            <div class="nav_links">
+                <a href="index.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Home</span>
+                    <span class="m-flip_item">Home</span>
+                </a>
+                <a href="about.html" class="m-flip js-flip">
+                    <span class="m-flip_item">About</span>
+                    <span class="m-flip_item">About</span>
+                </a>
+                <a href="gold.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Gold</span>
+                    <span class="m-flip_item">Gold</span>
+                </a>
+                <a href="sunglasses.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Sunglasses</span>
+                    <span class="m-flip_item">Sunglasses</span>
+                </a>
+                <a href="brands.html" class="m-flip js-flip">
+                    <span class="m-flip_item">Brands</span>
+                    <span class="m-flip_item">Brands</span>
+                </a>
+            </div>
+
+            <div class="nav_right">
+                <!-- Cart -->
+                <div class="navAddtoCart">
+                    <a href="signIn.html" class="m-flip js-flip">
+                        <span class="m-flip_item">Sign in</span>
+                        <span class="m-flip_item">Sign in</span>
+                    </a>
+                    <div class="vLine"></div>
+                    <a href="addToCart.html" class="add_to_cart" id="cartValue">
+                        <i class="fa-solid fa-cart-shopping"> 0 </i>
+                    </a>
+                </div>
+
+                <!-- Hamburger -->
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- For Small screen -->
+        <div class="res_nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gold.html">Gold</a>
+            <a href="sunglasses.html">Sunglasses</a>
+            <a href="brands.html">Brands</a>
+        </div>
+    </nav>
+
+    <div class="nav_overlay"></div>
+
+    <!--========== Main ==========-->
+    <div id="main" class="main_pT">
+        <section id="brands_page">
+            <div class="container">
+                <!--========== Header ==========-->
+                <!-- Heading -->
+                <div class="heading">
+                    <h1>Brands</h1>
+                    <p>
+                        Shop now with your favourite brands.
+                    </p>
+                </div>
+
+                <!--========== Brands Grid ==========-->
+                <div id="brands_grid">
+                    <!-- Fetching data from brandsPage.js in data folder -->
+                </div>
+            </div>
+        </section>
+
+        <!--========== Explore Glasses ==========-->
+        <section class="expoloreGlasses">
+            <div class="container">
+                <!-- Heading -->
+                <div class="heading">
+                    <h1>Explore Our Glasses</h1>
+                    <p>
+                        Seamless sophistication in each set.
+                    </p>
+                </div>
+
+                <!-- Content -->
+                <div class="wrapper">
+                    <div class="col">
+                        <div class="txt">
+                            <h3>Eye Glasses</h3>
+                            <div class="btn btn3 mT2">
+                                <a href="gold.html" class="m-flip js-flip">
+                                    <span class="m-flip_item">Explore now</span>
+                                    <span class="m-flip_item">Explore now</span>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="public/home/popBrand3.avif" alt="Eyeglasses" srcset="" loading="lazy">
+                    </div>
+                    <div class="col">
+                        <div class="txt">
+                            <h3>Sun Glasses</h3>
+                            <div class="btn btn3 mT2">
+                                <a href="sunglasses.html" class="m-flip js-flip">
+                                    <span class="m-flip_item">Explore now</span>
+                                    <span class="m-flip_item">Explore now</span>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="public/home/popBrand1.jpg" alt="Sunglasses" srcset="" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== Customer Help ==========-->
+        <section class="customerHelp">
+            <div class="container customerHelpCnt">
+                <!-- Fetching data through js from data folder -->
+            </div>
+        </section>
+
+        <!--========== Footer ==========-->
+        <footer></footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
